@@ -20,7 +20,7 @@ $id = json_decode($id,true);
 $id = $id['data'][0]['rewardTransactionId'];
 for($id1 = 10; $id1 < 20;$id1++)
 {
-  $gas = $tri->claim($bearer,$id,$id1);
+  $tiyangtani = $tri->claim($bearer,$id,$id1);
   echo $tiyangtani . "\r\n";
   sleep(2);
 }
